@@ -49,7 +49,7 @@ header p {
     }
     nav .active a {
         background-color: #8c501b;
-        background-image: linear-gradient(#8b5022, #653a19)
+        background-image: linear-gradient(#8b5022, #653a19);
         color: white;
     }    
 } /*end of the media query*/
