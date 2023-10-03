@@ -9,6 +9,7 @@ body {
 header {
     background-color: #3d3d3d;
     padding: 1rem 2%;
+    align-items: flex-end;
 }
 header div{
     padding-left: 1vw;
