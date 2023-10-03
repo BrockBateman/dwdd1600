@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="To help learn about the Pokemon world">
+        <meta name="author" content="Brock Bateman">
+        <meta name="viewport" content="width+device-width, initial-scale=1">
+
+        <title>Pokemon 101:Home</title>
+       
+        <link rel="stylesheet" href="website.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+    </head>
+
+    <body>
+        <!-- Start of the page header -->
+        <header>           
+            <img src="images/logo.png" alt="site logo" width="100" height="100">
+            <div>
+            <h1>Pokemon 101</h1>
+            <p>Another World! To Learn!</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">History</a></li>
+                <li><a href="regions.html">Regions</a></li>
+                <li><a href="types.html">Types</a></li>
+                <li class="active"><a href="survey.html">Survey</a></li>
+            </ul>   
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            <h1>Survey</h1>
+            <form method="get" class="mySurvey" action="thanks.html">
+                
+                <fieldset>
+                <legend>Surveyor Information</legend>
+                    <label>Full Name*<input type="text" name="fname" required></label>
+                    <label>Email*<input type="email" name="email" required></label>
+                    <label>Cell Number*<input type="tel" name="phone" required placeholder="(440)923-1111"></label>                
+                </fieldset>
+                
+                <fieldset>
+                <legend>Rating</legend>
+                    <label><input type="radio" name="method" value="1">1: Not very helpful</label>
+                    <label><input type="radio" name="method" value="2">2: Not helpful </label>
+                    <label><input type="radio" name="method" value="3">3: kind of helpful</label>
+                    <label><input type="radio" name="method" value="4"> 4: helpful</label>
+                    <label><input type="radio" name="method" value="5">5: Very helpful</label>
+                </fieldset> 
+                
+                <fieldset>
+                <legend>What did you like learning about the most?</legend>
+                    <label><input type="checkbox" name="pokemon" value="chosen">Pokemon</label>
+                    <label><input type="checkbox" name="types" value="chosen">Types</label>
+                    <label><input type="checkbox" name="regions" value="chosen">Regions</label>
+                    
+                <label>What would like to learn more about?</label>
+                    <select name="options">
+                    <option value="none">Please Select</option>
+                    <option value="first">Type combinations</option>
+                    <option value="second">Strengths and Weakness</option>
+                    <option value="third">Competitive scene</option>
+                    </select>
+                </fieldset>
+                
+                <label>Comments
+                    <textarea name="comments">What can we do better?</textarea>
+                </label>
+                
+                <input type="submit" value="Finish Here!">
+            </form>        
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+            <p>&copy; 2023 &bull; Brock Bateman &bull; <a href="mailto:brocktb130@gmail.com">Email Us</a></p>
+        </footer>
+    
+    </body>
+
+</html>
