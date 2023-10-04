@@ -178,6 +178,9 @@ div.mygallery {
 div.mygallery figure {
     margin: .5rem 2% 0 0;
 }
+div.mygallery figure:hover {
+    box-shadow: 2px 2px 4px #f9f1ea;
+}
 div.mygallery figure img {
     width: 100%;
     height: auto;
